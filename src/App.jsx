@@ -18,16 +18,8 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/operator" element={
-            <Protected>
-              <OperatorPanel />
-            </Protected>
-          } />
-          <Route path="/admin" element={
-            <Protected role="admin">
-              <AdminPanel />
-            </Protected>
-          } />
+          <Route path="/operator" element={<Protected><OperatorPanel /></Protected>} />
+          <Route path="/admin" element={<Protected role="admin"><AdminPanel /></Protected>} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>

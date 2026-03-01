@@ -1,12 +1,9 @@
 
-import ScriptNavigator from "../components/ScriptNavigator";
-import Sidebar from "../components/Sidebar";
-
 export default function OperatorPanel() {
   return (
-    <div style={{display:"flex",height:"100vh"}}>
-      <Sidebar />
-      <ScriptNavigator />
+    <div style={{padding:"40px"}}>
+      <h2>Painel do Operador</h2>
+      <p>Sistema funcionando corretamente.</p>
     </div>
   );
 }
