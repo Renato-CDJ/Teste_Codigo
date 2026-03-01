@@ -1,0 +1,24 @@
+{
+  "marcas": {
+    "HABITACIONAL": {
+      "hab1_abordagem": {
+        "id": "hab1_abordagem",
+        "title": "Abordagem",
+        "body": "Ol\u00e1, falo com o cliente?",
+        "buttons": [
+          {
+            "label": "SIM",
+            "next": "hab1_fim",
+            "primary": true
+          }
+        ]
+      },
+      "hab1_fim": {
+        "id": "hab1_fim",
+        "title": "Fim",
+        "body": "Atendimento finalizado.",
+        "buttons": []
+      }
+    }
+  }
+}
